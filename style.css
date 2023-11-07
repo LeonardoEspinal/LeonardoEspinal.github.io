@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+
+.cabeza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #1c1c1f;
+    width: 100%;
+}
+
+.logo a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.logo img {
+    margin-left: 30px;
+}
+
+.navbar a {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.header {
+    height: 60vh;
+    background: url(img/umsa.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(55, 66, 66);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    border: 3px solid #2a2a2e;
+    background-color: #2a2a2e;
+}
+
+.btn {
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(17, 70, 167);
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau {
+    padding: 50px;
+    background: #2a2a2e;
+}
+
+.box-container {
+    display: flex;
+    text-align: center;
+}
+
+.box-container .box {
+    width: 270px;
+    background: #171717;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.box-container .box i {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: rgb(28, 78, 122);
+    background: rgb(57, 58, 55);
+    font-size: 35px;
+    margin: 10px;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #1e6fe9;
+}
+
+.box-container .box p {
+    padding: 0 0px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.price {
+    background: url(img/umsa2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.about {
+    background: #2a2a2e;
+}
+
+.box-container2 {
+    display: flex;
+}
+
+.box-container2 .box {
+    text-align: center;
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-top: -50px; 
+}
+
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: #1e6fe9;
+    padding-top: 10px;
+}
+
+.contact {
+    padding: 50px;
+    background: #171717;
+}
+
+.f-enlaces {
+    display: flex;
+    flex-direction: column;
+}
+.f-enlaces a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
